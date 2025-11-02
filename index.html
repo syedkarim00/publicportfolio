@@ -37,15 +37,15 @@
         <div class="hero__content" data-animate>
           <p class="hero__eyebrow">Hi, I'm</p>
           <h1 id="hero-heading">Syed Karim</h1>
-          <p class="hero__subtitle">Programmer Analyst at the Royal Canadian Mounted Police shaping secure, human-centered government services.</p>
+          <p class="hero__subtitle">Programmer Analyst owning CI/CD and DevOps across three delivery teams (including Big Four consulting partners) to ship secure, reliable public-safety software.</p>
           <div class="hero__cta">
-            <a class="button" href="#projects">View Projects</a>
-            <a class="button button--ghost" href="mailto:connect@syedkarim.dev">Let's Talk</a>
+            <a class="button" href="#projects">See Selected Work</a>
+            <a class="button button--ghost" href="mailto:connect@syedkarim.dev">Book a Chat</a>
           </div>
           <ul class="hero__meta" role="list">
-            <li><span>Current Role</span>Programmer Analyst @ RCMP</li>
+            <li><span>Current Role</span>Programmer Analyst &amp; Primary Deployer (DevOps)</li>
             <li><span>Location</span>Canada</li>
-            <li><span>Focus</span>Modernizing public safety systems</li>
+            <li><span>Focus</span>Automating delivery, reducing risk, enabling mission-critical uptime</li>
           </ul>
         </div>
         <div class="hero__visual" data-animate>
@@ -76,24 +76,26 @@
         </div>
         <div class="section__content">
           <p>
-            As a Programmer Analyst with the Royal Canadian Mounted Police, I collaborate with investigators, analysts, and operational teams to streamline complex workflows.
-            My focus is delivering secure, reliable software that respects privacy, improves data quality, and accelerates decision making.
+            I design, automate, and harden delivery pipelines for public-sector systems where reliability and auditability matter. As the primary deployer and DevOps owner across three squads (including Big Four consulting partners), I streamline releases, cut manual toil, and turn policy into guard-railed, reproducible infrastructure.
           </p>
           <p>
-            Outside of work I enjoy exploring open-source civic tech, mentoring new developers, and documenting knowledge so teams can deliver with confidence.
+            On the product side, I’ve built and maintained Power Apps components (business rules, forms, processes, security roles), Azure Logic Apps, Power Automate flows, and C# plugins/desktop tools—backed by Azure DevOps pipelines, Git, PowerShell, and secrets management. I’ve configured an Azure Application Gateway WAF policy and designed a Logic App antivirus POC that’s now live in production.
+          </p>
+          <p>
+            Outside of work I ship side projects (MiMi meet-in-the-middle app, a customizable habit-tracker) and explore ways AI and prompt engineering can accelerate dependable software delivery.
           </p>
           <div class="stats">
             <div class="stats__item">
-              <span class="stats__number">Public Sector</span>
-              <span class="stats__label">Mission-driven delivery</span>
+              <span class="stats__number">Delivery</span>
+              <span class="stats__label">CI/CD owner across 3 teams</span>
             </div>
             <div class="stats__item">
-              <span class="stats__number">Data</span>
-              <span class="stats__label">Evidence &amp; analytics platforms</span>
+              <span class="stats__number">Automation</span>
+              <span class="stats__label">50% faster integration stand-downs</span>
             </div>
             <div class="stats__item">
-              <span class="stats__number">People</span>
-              <span class="stats__label">Cross-functional partner</span>
+              <span class="stats__number">Security</span>
+              <span class="stats__label">WAF + AV workflows in production</span>
             </div>
           </div>
         </div>
@@ -113,12 +115,29 @@
               <span class="timeline__location">Royal Canadian Mounted Police · Canada</span>
             </div>
             <div class="timeline__content">
-              <h3>Programmer Analyst</h3>
-              <p>Partner with national security, intelligence, and investigative teams to deliver systems that safeguard data and accelerate insight.</p>
+              <h3>Programmer Analyst · DevOps Owner</h3>
+              <p>Partner with national programs to deliver secure, observable systems—owning CI/CD, deployments, and operational readiness across three teams (incl. Big Four consulting partners).</p>
               <ul>
-                <li>Lead modernization of legacy workflows into secure, cloud-ready services.</li>
-                <li>Automate data validation pipelines to improve reporting accuracy.</li>
-                <li>Facilitate collaboration between technical teams and front-line members.</li>
+                <li>Led CI/CD and release governance end-to-end (Azure DevOps), standardizing pipelines, approvals, and environment promotion.</li>
+                <li>Built a <strong>start/stop orchestration pipeline</strong> for Logic Apps that reduced integration disablement time by <strong>~50%</strong>, enabling scheduled stand-downs with minimal human intervention and lower callback costs.</li>
+                <li>Delivered and maintained <strong>Power Platform</strong> components (business rules, forms, processes, security roles), <strong>Azure Logic Apps</strong>, <strong>Power Automate</strong>, and <strong>C#</strong> plugins/desktop tools.</li>
+                <li>Implemented <strong>Azure Application Gateway WAF</strong> policy; designed a <strong>Logic App antivirus scanning</strong> POC adopted into production.</li>
+                <li>Automated configuration/secrets management, scripted ops tasks with <strong>PowerShell</strong>, and enforced branching/versioning with <strong>Git</strong>.</li>
+                <li>Drove observability and test coverage to improve change confidence and auditability.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline__item" data-animate>
+            <div class="timeline__meta">
+              <span class="timeline__date">Acting Rotation</span>
+              <span class="timeline__location">RCMP · Canada</span>
+            </div>
+            <div class="timeline__content">
+              <h3>Acting Team Lead</h3>
+              <p>Facilitated stand-ups, demos, and retros; aligned three delivery streams. Served as deployment authority and DevOps point of contact; peers frequently sought guidance on release risk, approvals, and best practices.</p>
+              <ul>
+                <li>Mentored teammates, documented runbooks, and improved new-joiner onboarding.</li>
+                <li>Elevated release quality by clarifying ownership, change windows, and rollback plans.</li>
               </ul>
             </div>
           </article>
@@ -146,9 +165,24 @@
         <div class="section__header" data-animate>
           <span class="section__eyebrow">Projects</span>
           <h2 id="projects-heading">Highlighted initiatives</h2>
-          <p class="section__lede">Hover to reveal impact notes from secure, data-forward public safety programs.</p>
+          <p class="section__lede">Hover to reveal impact notes from secure, data-forward public-safety and side-project builds.</p>
         </div>
         <div class="projects-grid">
+          <!-- Side Project: MiMi -->
+          <article class="project-card" data-animate>
+            <div class="project-card__meta">
+              <span class="project-card__tag">Product</span>
+              <span class="project-card__year">2025</span>
+            </div>
+            <h3>MiMi — Meet-in-the-Middle App</h3>
+            <p>React Native / Expo app with geolocation to help groups pick fair meeting points. Shipped production build, legal pages, and portfolio presence; iterating on UX and freemium concepts.</p>
+            <div class="project-card__details">
+              <p>Impact: Demonstrates end-to-end execution—design, privacy, release, and support.</p>
+              <a class="project-card__link" href="#">Overview available on request</a>
+            </div>
+          </article>
+
+          <!-- Existing public-sector cards -->
           <article class="project-card" data-animate>
             <div class="project-card__meta">
               <span class="project-card__tag">Public Safety</span>
@@ -158,7 +192,7 @@
             <p>Modernized the digital intake and review process for sensitive investigations with secure, role-based access controls.</p>
             <div class="project-card__details">
               <p>Impact: Accelerated reviews while strengthening auditability.</p>
-              <a class="project-card__link" href="#">Read case study</a>
+              <a class="project-card__link" href="#">Case study (request access)</a>
             </div>
           </article>
           <article class="project-card" data-animate>
@@ -170,7 +204,7 @@
             <p>Delivered a secure analytics environment that unifies disparate datasets for investigators with transparent lineage.</p>
             <div class="project-card__details">
               <p>Impact: Empowered proactive briefings with trusted insights.</p>
-              <a class="project-card__link" href="#">Read case study</a>
+              <a class="project-card__link" href="#">Case study (request access)</a>
             </div>
           </article>
           <article class="project-card" data-animate>
@@ -182,7 +216,21 @@
             <p>Co-designed the end-to-end journey for officers and partners submitting digital evidence, ensuring compliance and clarity.</p>
             <div class="project-card__details">
               <p>Impact: Reduced manual handling while improving transparency.</p>
-              <a class="project-card__link" href="#">Read case study</a>
+              <a class="project-card__link" href="#">Case study (request access)</a>
+            </div>
+          </article>
+
+          <!-- Side Project: Habit Tracker -->
+          <article class="project-card" data-animate>
+            <div class="project-card__meta">
+              <span class="project-card__tag">Wellbeing</span>
+              <span class="project-card__year">2025</span>
+            </div>
+            <h3>Habit Tracker — Heatmap &amp; Weekly Dials</h3>
+            <p>A customizable habit system with yearly heatmaps and weekly intensity cells (e.g., gym 3×/week fills the cell). Built for quick input and long-term consistency tracking.</p>
+            <div class="project-card__details">
+              <p>Impact: Encourages momentum through simple, glanceable progress.</p>
+              <a class="project-card__link" href="#">Overview available on request</a>
             </div>
           </article>
         </div>
@@ -199,28 +247,27 @@
           <div class="skills__column">
             <h3>Core</h3>
             <ul>
-              <li>Business analysis &amp; requirements discovery</li>
-              <li>Stakeholder facilitation &amp; change management</li>
-              <li>Accessibility &amp; inclusive service delivery</li>
-              <li>Data stewardship &amp; policy alignment</li>
+              <li>Requirements &amp; service design in regulated environments</li>
+              <li>Stakeholder facilitation, change management, and documentation</li>
+              <li>Accessibility, data stewardship, and policy alignment</li>
             </ul>
           </div>
           <div class="skills__column">
-            <h3>Technical</h3>
+            <h3>Technical / DevOps</h3>
             <ul>
-              <li>Python, TypeScript, SQL</li>
-              <li>API development &amp; integration</li>
-              <li>Cloud &amp; on-prem deployment (Azure, AWS)</li>
-              <li>Automation, testing, observability</li>
+              <li><strong>CI/CD:</strong> Azure DevOps Pipelines, release governance, approvals</li>
+              <li><strong>Cloud &amp; Infra:</strong> Azure (App Gateway <strong>WAF</strong>), Logic Apps, secrets mgmt</li>
+              <li><strong>Automation:</strong> PowerShell, Power Automate; C# plugins &amp; desktop tools</li>
+              <li><strong>App:</strong> Power Apps (rules, forms, security roles), TypeScript/JS, Python</li>
+              <li><strong>Practices:</strong> Testing, observability, Git workflows, secure SDLC</li>
             </ul>
           </div>
           <div class="skills__column">
-            <h3>Human</h3>
+            <h3>Leadership &amp; Human</h3>
             <ul>
-              <li>Team leadership &amp; mentorship</li>
-              <li>Interdisciplinary collaboration</li>
-              <li>Knowledge management &amp; training</li>
-              <li>Continuous improvement mindset</li>
+              <li>Acting team lead; deployment authority &amp; DevOps “go-to”</li>
+              <li>Mentorship, knowledge bases, and runbooks</li>
+              <li>Continuous improvement mindset; calm under incident pressure</li>
             </ul>
           </div>
         </div>
@@ -235,8 +282,7 @@
         </div>
         <div class="contact" data-animate>
           <p>
-            If you're advancing digital services, stewarding public safety programs, or exploring responsible innovation, I'd love to connect and share perspectives.
-            Drop a note or reach out across the web.
+            Building dependable systems, faster. If you’re shipping public-sector platforms, scaling CI/CD, or exploring AI-assisted delivery, let’s connect.
           </p>
           <div class="contact__links">
             <a class="contact__link" href="mailto:connect@syedkarim.dev">connect@syedkarim.dev</a>
